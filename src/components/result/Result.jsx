@@ -8,21 +8,21 @@ export default function result() {
   return (
     <Div>
       <Container>
-        <H1>HR Production of the Highest Quality</H1>
+        <H1 data-aos="zoom-in-up">HR Production of the Highest Quality</H1>
         <Fdiv>
-          <Idiv>
+          <Idiv data-aos="zoom-in-right"  >
             <Img src={sms} alt="" />
             <P>Create a Healthy Work Environment</P>
           </Idiv>
-          <Idiv>
+          <Idiv data-aos="zoom-in-right"  >
             <Img src={shield} alt="" />
             <P>Manages & Stores Important Documents</P>
           </Idiv>
-          <Idiv>
+          <Idiv data-aos="zoom-in-left">
             <Img src={jelf} alt="" />
             <P>Protects Your Business Just in Case</P>
           </Idiv>
-          <Idiv>
+          <Idiv data-aos="zoom-in-left">
             <Img src={girl} alt="" />
             <P>Educates & Informs Employee Expectations</P>
           </Idiv>

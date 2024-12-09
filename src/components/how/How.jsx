@@ -6,13 +6,13 @@ export default function () {
     <Container>
       <Div>
         <Textdiv>
-          <H1>How the scenes fit together</H1>
-          <P>
+          <H1 data-aos="zoom-in-right">How the scenes fit together</H1>
+          <P data-aos="zoom-in-right">
             Employee Training & Development, Diversity & Inclusion Programs, and
             Conflict Resolution.
           </P>
         </Textdiv>
-        <Img src={cofe} alt="cofe-img" />
+        <Img data-aos="zoom-in-left" src={cofe} alt="cofe-img" />
       </Div>
     </Container>
   );

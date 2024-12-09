@@ -26,9 +26,9 @@ export default function Footer() {
     <Foooter>
       <Container>
         <Div>
-          <Imgi src={logo} alt="" />
-          <H2>A people company.</H2>
-          <Idiv>
+          <Imgi ata-aos="zoom-in-right" src={logo} alt="" />
+          <H2 data-aos="zoom-in-up">A people company.</H2>
+          <Idiv ata-aos="zoom-in-left">
             <Fmg src={facebook} alt="" />
             <Tmg src={twitter} alt="" />
             <Lmg src={linkedin} alt="" />
@@ -36,11 +36,11 @@ export default function Footer() {
           </Idiv>
         </Div>
         <Ddiv>
-          <P>
+          <P ata-aos="zoom-in-right">
             © 2020 Clerksy, Inc. Clerksy is a registered trademark of Clerksy,
             Inc.
           </P>
-          <Span>
+          <Span ata-aos="zoom-in-left">
             <Pi>Privacy Policy</Pi>
             <Pi>Terms of Service</Pi>
             <Pi>GDPR</Pi>

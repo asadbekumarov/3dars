@@ -19,10 +19,10 @@ export default function consider() {
   return (
     <Div>
       <Container>
-        <H1>HR Production of the Highest Quality</H1>
-        <Pi>HR is for everyone. Clerksy can help you.</Pi>
+        <H1 data-aos="zoom-in-up">HR Production of the Highest Quality</H1>
+        <Pi data-aos="zoom-in-up">HR is for everyone. Clerksy can help you.</Pi>
         <Fdiv>
-          <Idiv>
+          <Idiv ata-aos="zoom-in-right">
             <Img src={jelf} alt="" />
             <H4>Protect Your Company</H4>
             <Sdiv>
@@ -38,7 +38,7 @@ export default function consider() {
               <P>Policy Drafting</P>
             </Sdiv>
           </Idiv>
-          <Idiv>
+          <Idiv data-aos="zoom-in-up">
             <Img src={star} alt="" />
             <H4>Set Your Employees Up For Success</H4>
             <Sdiv>
@@ -58,7 +58,7 @@ export default function consider() {
               <P>Employee Performance</P>
             </Sdiv>
           </Idiv>
-          <Idiv>
+          <Idiv ata-aos="zoom-in-left">
             <Img src={search} alt="" />
             <H4>Know Your Industry's Legal Landscape</H4>
             <Sdiv>

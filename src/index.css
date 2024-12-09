@@ -7,3 +7,8 @@
     font-family: "Noto Sans";
     src: url("./assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf");
 }
+
+html {
+    scrollbar-width: normal;
+    scrollbar-color: #f7bc28 white;
+}

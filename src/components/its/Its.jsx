@@ -19,10 +19,12 @@ export default function () {
   return (
     <Div>
       <Container>
-        <H1>It's easy as 1, 2, 3</H1>
-        <Pi>Clerksy can help use your unique business needs. Here's how:</Pi>
+        <H1 data-aos="zoom-in-up">It's easy as 1, 2, 3</H1>
+        <Pi data-aos="zoom-in-up">
+          Clerksy can help use your unique business needs. Here's how:
+        </Pi>
         <Fdiv>
-          <Idiv>
+          <Idiv data-aos="zoom-in-right">
             <Sdiv>
               <P>Fill out a form and tell us what you're looking for:</P>
               <H4>5 minutes</H4>
@@ -30,14 +32,14 @@ export default function () {
             <Img src={arrow} alt="" />
           </Idiv>
           <Idiv>
-            <Sdiv>
+            <Sdiv data-aos="zoom-in-up">
               <P>Time it will take a Clerksy rep to follow up:</P>
               <H4>24 hours</H4>
             </Sdiv>
             <Img src={arrow360} alt="" />
           </Idiv>
           <Idiv>
-            <Vmg src={vector} alt="" />
+            <Vmg data-aos="zoom-in-left" src={vector} alt="" />
           </Idiv>
         </Fdiv>
       </Container>

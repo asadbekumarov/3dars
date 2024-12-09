@@ -5,13 +5,15 @@ export default function Employees() {
   return (
     <Div>
       <Container>
-        <H2>Employees come in all shapes and <br /> sizes. Find the right fit.</H2>
-        <P>
+        <H2 data-aos="zoom-in-up">
+          Employees come in all shapes and <br /> sizes. Find the right fit.
+        </H2>
+        <P data-aos="zoom-in-up">
           Focus on casting and screening. Let Clerksy handle contracts, resolve
-          any on set-conflicts <br /> and make sure you are compliant with work and
-          safety boards.
+          any on set-conflicts <br /> and make sure you are compliant with work
+          and safety boards.
         </P>
-        <Img src={person} alt="" />
+        <Img data-aos="zoom-in-up" src={person} alt="" />
       </Container>
     </Div>
   );

@@ -7,9 +7,9 @@ export default function Get() {
     <Div>
       <Rmg src={right} alt="hero-img" />
       <Container>
-        <H2>Get Started With Clerksy</H2>
-        <P>Make sure your business puts people first.</P>
-        <Button>Book a Free Discovery Call</Button>
+        <H2 data-aos="zoom-in-up">Get Started With Clerksy</H2>
+        <P data-aos="zoom-in-up">Make sure your business puts people first.</P>
+        <Button data-aos="zoom-in-up">Book a Free Discovery Call</Button>
       </Container>
       <Lmg src={left} alt="hero-img" />
     </Div>

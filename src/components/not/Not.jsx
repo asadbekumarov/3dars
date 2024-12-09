@@ -6,11 +6,11 @@ export default function () {
     <Container>
       <Div>
         <Textdiv>
-          <H1>Not just another HR resource.</H1>
-          <P>Simple. Entertaining. Informative.</P>
-          <Button>Download E-book</Button>
+          <H1 data-aos="zoom-in-right">Not just another HR resource.</H1>
+          <P data-aos="zoom-in-right">Simple. Entertaining. Informative.</P>
+          <Button data-aos="zoom-in-right">Download E-book</Button>
         </Textdiv>
-        <Img src={book} alt="hero-img" />
+        <Img ata-aos="zoom-in-left" src={book} alt="hero-img" />
       </Div>
     </Container>
   );

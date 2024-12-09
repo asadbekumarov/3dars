@@ -25,10 +25,10 @@ export default function () {
     <Container>
       <Div>
         <Fdiv>
-          <Pimg src={partner} alt="partner" />
+          <Pimg data-aos="zoom-in-right" src={partner} alt="partner" />
           <Textdiv>
-            <H1>Put the human back in HR.</H1>
-            <P>
+            <H1 data-aos="zoom-in-left">Put the human back in HR.</H1>
+            <P data-aos="zoom-in-left">
               Your employees are the real stars. Show the love and help them
               perform!
             </P>
@@ -36,31 +36,33 @@ export default function () {
         </Fdiv>
         <Fdiv>
           <Textdiv>
-            <H1>You don’t have to play all the parts.</H1>
-            <P>
+            <H1 data-aos="zoom-in-right">
+              You don’t have to play all the parts.
+            </H1>
+            <P data-aos="zoom-in-right">
               Sales, accounting, HR— Oh My! You can’t do it all - let Clerksy
               help.
             </P>
           </Textdiv>
-          <Pimg src={partner2} alt="partner" />
+          <Pimg data-aos="zoom-in-left" src={partner2} alt="partner" />
         </Fdiv>
         <Pdiv>
-          <Hp1>We partner with the best</Hp1>
+          <Hp1 data-aos="zoom-in-up">We partner with the best</Hp1>
           <IDiv>
             <A href="#">
-              <Img src={stripe} alt="" />
+              <Img data-aos="zoom-in-right" src={stripe} alt="" />
             </A>
             <A href="">
-              <Img src={google} alt="" />
+              <Img data-aos="zoom-in-right" src={google} alt="" />
             </A>
             <A href="">
-              <Img src={notion} alt="" />
+              <Img data-aos="zoom-in-up" src={notion} alt="" />
             </A>
             <A href="">
-              <Img src={gusto} alt="" />
+              <Img data-aos="zoom-in-left" src={gusto} alt="" />
             </A>
             <A href="">
-              <Img src={airca} alt="" />
+              <Img data-aos="zoom-in-left" src={airca} alt="" />
             </A>
           </IDiv>
         </Pdiv>
