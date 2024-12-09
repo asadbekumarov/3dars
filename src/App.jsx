@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "./components/header/Header";
-
+import Header from "./components/Header/Header";
 import Hero from "./components/hero/Hero";
 import Partner from "./components/partner/Partner";
 import Result from "./components/result/Result";
