@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Recoleta";
+    src: url("./assets/fonts/Recoleta-RegularDEMO.otf");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("./assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf");
+}
