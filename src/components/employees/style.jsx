@@ -12,7 +12,9 @@ const H2 = styled.h2`
   line-height: 65.25px;
   color: #163a24;
   text-align: center;
-  //   max-width: 739px;
+  @media (max-width: 768px) {
+    font-size: 40px;
+  }
 `;
 const Container = styled.div`
   max-width: 1180px;
@@ -23,6 +25,9 @@ const Img = styled.img`
   width: 1180px;
   text-align: center !important;
   height: auto;
+  @media (max-width: 1232px) {
+    width: 100%;
+  }
 `;
 const P = styled.p`
   text-align: center;

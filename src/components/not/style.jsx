@@ -8,6 +8,9 @@ const Container = styled.div`
 const Img = styled.img`
   width: 492px;
   height: auto;
+  @media (max-width: 512px) {
+    width: 100%;
+  }
 `;
 
 const Div = styled.div`
@@ -16,6 +19,10 @@ const Div = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 858px) {
+    flex-direction: column;
+    gap: 30px;
+  }
 `;
 
 const Textdiv = styled.div`

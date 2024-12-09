@@ -17,6 +17,9 @@ const Fdiv = styled.div`
   justify-content: space-between;
   align-items: center;
   gap: 100px;
+  @media (max-width: 1254px) {
+    flex-direction: column;
+  }
 `;
 
 const Pdiv = styled.div`
@@ -31,6 +34,9 @@ const Img = styled.img`
 const Pimg = styled.img`
   width: 492px;
   height: auto;
+  @media (max-width: 1254px) {
+    width: 300px;
+  }
 `;
 const Textdiv = styled.div`
   display: flex;
@@ -45,12 +51,20 @@ const H1 = styled.h1`
   color: #163a24;
   max-width: 325px;
   margin: 0;
+  @media (max-width: 1254px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 `;
 
 const IDiv = styled.div`
   display: flex;
   gap: 86px;
   padding-bottom: 120px;
+  @media (max-width: 1254px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 const P = styled.p`
   font-family: Noto Sans;
@@ -70,6 +84,9 @@ const Hp1 = styled.p`
   font-weight: 600;
   line-height: 54px;
   color: #163a24;
+  @media (max-width: 1254px) {
+    font-size: 36px;
+  }
 `;
 const A = styled.a``;
 export { Container, Div, Fdiv, Pdiv, Img, Pimg, Textdiv, H1, IDiv, P, Hp1, A };

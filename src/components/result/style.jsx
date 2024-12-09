@@ -8,6 +8,9 @@ const H1 = styled.h1`
   line-height: 65.25px;
   color: #fbfaf7;
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 36px;
+  }
 `;
 const Container = styled.div`
   max-width: 1180px;
@@ -33,6 +36,13 @@ const Fdiv = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  @media (max-width: 768px) {
+    text-align: center;
+    justify-content: center;
+  }
 `;
 
 const Idiv = styled.div`
@@ -40,6 +50,9 @@ const Idiv = styled.div`
   flex-direction: column;
   align-items: center;
   padding-bottom: 120px;
+  @media (min-width: 768px) {
+    text-align: center;
+  }
 `;
 
 const Div = styled.div`

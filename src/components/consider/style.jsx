@@ -28,6 +28,9 @@ const P = styled.p`
   line-height: 21px;
   color: #163a24;
   display: flex !important;
+  @media (max-width: 424px) {
+    font-size: 14px;
+  }
 `;
 
 const Fdiv = styled.div`
@@ -37,6 +40,9 @@ const Fdiv = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const Idiv = styled.div`
@@ -49,8 +55,12 @@ const Idiv = styled.div`
   padding-bottom: 120px;
   text-align: start;
   width: 353px;
-  height: 350px;
+  height: auto;
   border-radius: 15px;
+  @media (max-width: 768px) {
+    width: 300px;
+    padding: 70px 35px;
+  }
   transition: all 0.3s ease; /* O'zgarishni silliq qilish uchun */
   &:hover {
     width: 400px;

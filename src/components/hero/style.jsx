@@ -11,12 +11,19 @@ const Container = styled.div`
 const Img = styled.img`
   width: 673px;
   height: auto;
+  @media (max-width: 1254px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 const Div = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 1254px) {
+    flex-direction: column;
+  }
 `;
 
 const Textdiv = styled.div`
@@ -31,6 +38,9 @@ const P = styled.p`
   line-height: 27px;
   color: #fbfaf7;
   max-width: 475px;
+  @media (max-width: 546px) {
+    font-size: 16px;
+  }
 `;
 const H1 = styled.h1`
   font-family: Recoleta;
@@ -39,5 +49,9 @@ const H1 = styled.h1`
   line-height: 65.25px;
   color: #fbfaf7;
   max-width: 391px;
+  @media (max-width: 546px) {
+    font-size: 40px;
+  }
 `;
+
 export { Section, Container, Img, Div, Textdiv, P, H1 };

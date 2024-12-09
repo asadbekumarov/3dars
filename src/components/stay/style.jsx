@@ -15,6 +15,10 @@ const CDiv = styled.div`
   justify-content: space-between !important;
   padding-bottom: 60px;
   padding-top: 60px;
+  @media (max-width: 948px) {
+    flex-direction: column;
+    text-align: center;
+  }
 `;
 
 const P = styled.p`
@@ -58,6 +62,9 @@ const Input = styled.input`
   width: 553px;
   padding: 15px 0;
   outline: none;
+  @media (max-width: 568px) {
+    width: 300px;
+  }
 `;
 
 const Button = styled.button`

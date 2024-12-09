@@ -15,10 +15,16 @@ const Container = styled.div`
 const Rmg = styled.img`
   width: 300px;
   height: auto;
+  @media (max-width: 886px) {
+    display: none;
+  }
 `;
 const Lmg = styled.img`
   width: 300px;
   height: auto;
+  @media (max-width: 886px) {
+    display: none;
+  }
 `;
 const H2 = styled.h2`
   padding-top: 114px;

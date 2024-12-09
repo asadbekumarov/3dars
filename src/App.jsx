@@ -13,7 +13,7 @@ import Stay from "./components/stay/Stay";
 import Footer from "./components/footer/Footer";
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
       <Partner />
@@ -26,7 +26,7 @@ function App() {
       <Get />
       <Stay />
       <Footer />
-    </div>
+    </>
   );
 }
 export default App;

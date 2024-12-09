@@ -30,6 +30,9 @@ const P = styled.p`
   font-weight: 400;
   line-height: 21.79px;
   color: #fbfaf7;
+  @media (max-width: 546px) {
+    display: none;
+  }
 `;
 const Button = styled.button`
   font-family: Noto Sans;

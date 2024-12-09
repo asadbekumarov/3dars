@@ -9,12 +9,18 @@ const Container = styled.div`
 const Img = styled.img`
   width: 492px;
   height: auto;
+  @media (max-width: 490px) {
+    width: 100%;
+  }
 `;
 
 const Div = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 928px) {
+    flex-direction: column;
+  }
 `;
 
 const Textdiv = styled.div`

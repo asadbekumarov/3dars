@@ -10,6 +10,10 @@ const Div = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const Idiv = styled.div`
@@ -46,10 +50,19 @@ const P = styled.p`
   font-weight: 400;
   line-height: 21px;
   color: #163a24;
+  @media (max-width: 800px) {
+    text-align: center;
+  }
 `;
 const Span = styled.span`
   display: flex;
   gap: 14px;
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
 `;
 const Pi = styled.p`
   padding-top: 26px;
@@ -59,6 +72,10 @@ const Pi = styled.p`
   font-weight: 400;
   line-height: 19.07px;
   color: #198c36;
+  @media (max-width: 800px) {
+    padding: 0;
+    margin: 0;
+  }
 `;
 
 const Ddiv = styled.div`
@@ -66,6 +83,10 @@ const Ddiv = styled.div`
   margin-top: 13px;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export {

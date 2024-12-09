@@ -8,6 +8,9 @@ const H1 = styled.h1`
   line-height: 54.25px;
   color: #163a24;
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 37px;
+  }
 `;
 const Container = styled.div`
   max-width: 1180px;
@@ -19,6 +22,9 @@ const Img = styled.img`
   text-align: center !important;
   height: auto;
   text-align: center !important;
+  @media (max-width: 768px) {
+    display: none !important;
+  }
 `;
 const P = styled.p`
   text-align: center !important;
@@ -37,6 +43,9 @@ const Fdiv = styled.div`
   gap: 40px;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const Idiv = styled.div`
